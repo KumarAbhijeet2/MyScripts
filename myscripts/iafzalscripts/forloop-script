@@ -1,0 +1,10 @@
+#!/bin/bash
+# Description : The script shows how for loop works
+# Date created : 30-05-2021
+# Date modified : 30-05-2021
+# Author : KA
+
+for i in eat sleep jump
+do
+echo See him $i
+done

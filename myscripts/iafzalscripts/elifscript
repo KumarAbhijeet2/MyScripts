@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo What is you name?
+echo
+read a
+echo
+echo "Hello $a"
+echo
+echo "Do you like to work in IT?(y/n)"
+echo
+read like
+if [  "$like" == y ]
+then
+echo
+echo Good decision
+echo
+elif [ "$like" == n ]
+then
+echo
+echo You should try in IT
+echo
+fi
+

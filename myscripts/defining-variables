@@ -1,0 +1,12 @@
+#!/bin/bash
+# Example of defining variables
+
+a=Kumar
+b=Abhijeet
+c="Linux class"
+
+echo "My first name is $a"
+echo "My last name is $b"
+echo "My class is $c"
+
+

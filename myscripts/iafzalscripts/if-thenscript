@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Description : This script shows example of if else statements
+# Author : KA
+# Date created : 27-05-2021
+# Date modified : 27-05-2021
+
+count=10 ##When count=100, it will o/p count is 100##
+if [ $count -eq 100 ]
+	then
+	  echo The count is 100
+else
+ 		echo The count is not 100
+fi

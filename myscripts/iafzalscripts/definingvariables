@@ -1,0 +1,27 @@
+#1/bin/bash
+# Author : Kr Abhijeet
+# Description : This script shows how to define and use those variables
+# Date : 21-05-2021
+# Date Modified : 21-05-2021
+
+
+p=pwd
+l=ls
+wi=whoami
+d=date
+c='cal 2021'
+
+echo Run variable task
+echo
+$p
+echo
+$l
+echo
+$wi
+echo
+$d
+echo
+$c
+echo
+echo End of script
+echo

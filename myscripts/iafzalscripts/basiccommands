@@ -1,0 +1,34 @@
+#!/bin/bash
+#Author : Kumar Abhijeet
+#Description : This script will run few basic commands and show in output
+#Date Created : 13-05-2021
+#Date Modified : 13-05-2021
+
+echo
+echo Here are some basic commands
+echo
+
+echo The present working directory is
+pwd
+echo
+
+echo The list of files are
+ls -ltr
+echo
+
+echo Todays date is 
+date
+echo
+
+echo The calendar for this month
+echo
+cal
+echo
+
+echo This system belongs to
+whoami
+echo
+
+touch a b c
+
+echo End of script

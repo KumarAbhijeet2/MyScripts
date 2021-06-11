@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Description : This script is to show i/o commands and use it for multiplication
+# Author : KA
+# Date Created : 28-05-2021
+# Date modified : 28-05-2021
+
+echo Input the first number 
+echo
+read a
+echo
+echo The first number entered is $a
+echo
+echo Input the secound number
+echo
+read b
+echo
+echo The second number entered is $b
+echo
+c=$[a*b]
+echo The multiplication result is $c 
+echo

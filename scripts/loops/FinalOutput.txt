@@ -1,0 +1,447 @@
+#!/bin/bash
+
+sum=0
+
+for i in {1..10}
+
+do
+
+sum=$((sum+i))
+
+done
+
+echo The sum is $sum
+#!/bin/bash
+
+CMDPATH=$1
+
+echo The passed path is $CMDPATH
+
+APTH=`ls $CMDPATH *.log`
+# /home/kumar/scripts/1.log /home/kumar/scripts/2.log /home/kumar/scripts/FinalOutput.log
+echo the file list is $APTH
+
+for i in $APTH
+
+do
+
+cat $i >> $CMDPATH/FinalOutput.txt
+
+done
+
+#!/bin/bash
+
+NOS=$@
+
+n=0
+
+echo The passed numbers as $NOS
+
+for a in $NOS
+
+do
+
+
+
+	if [[ $((a%2)) == 0 ]]
+
+	then
+
+	n=$((n+1))
+
+	fi
+
+done
+
+echo There are $n even numbers
+
+
+
+
+
+
+#! /bin/bash
+
+for var in 1 2 3 4 5 5 6 7 8
+do
+	echo Number is $var
+done
+
+
+for name in 'Kumar Abhijeet' 'Abhinav' 'Manish' 'Priya'
+do
+	echo Name = $name
+done
+
+
+#! /bin/bash
+
+for f in ../../*
+do
+ echo $f
+done
+#!/bin/bash
+
+a=1
+
+for i in {1..10}
+
+ do
+
+a=$((a*i))
+
+done
+
+echo The result is $a
+#!/bin/bash
+
+for i in {1..10}
+do
+
+if [[ $((i%2)) == 0 ]]
+then
+	echo $i is even number.
+else
+	echo $i is odd number.
+fi
+
+	done
+#!/bin/bash
+
+Nos=$@
+
+SUM=0
+SUM2=0
+
+echo The passed numbers are $Nos
+
+for a in $Nos
+
+do
+
+	if [[ $((a%2)) == 0 ]]
+	then
+	SUM=$((SUM+a))
+	else
+	SUM2=$((SUM2+a))
+	fi
+
+done
+
+echo The sum of even number : $SUM
+echo The sum of odd number : $SUM2
+
+
+#!/bin/bash
+
+a=0
+
+echo The table of 2 is : 
+
+for i in {1..10}
+	do
+a=$(($a+2))
+
+echo  2*$i=$a
+
+done
+
+
+#!/bin/bash
+
+sum=0
+
+for i in {1..10}
+
+do
+
+sum=$((sum+i))
+
+done
+
+echo The sum is $sum
+#!/bin/bash
+
+CMDPATH=$1
+
+echo The passed path is $CMDPATH
+
+APTH=`ls $CMDPATH *.log`
+# /home/kumar/scripts/1.log /home/kumar/scripts/2.log /home/kumar/scripts/FinalOutput.log
+echo the file list is $APTH
+
+for i in $APTH
+
+do
+
+cat $i >> $CMDPATH/FinalOutput.txt
+
+done
+
+#!/bin/bash
+
+NOS=$@
+
+n=0
+
+echo The passed numbers as $NOS
+
+for a in $NOS
+
+do
+
+
+
+	if [[ $((a%2)) == 0 ]]
+
+	then
+
+	n=$((n+1))
+
+	fi
+
+done
+
+echo There are $n even numbers
+
+
+
+
+
+
+#! /bin/bash
+
+for var in 1 2 3 4 5 5 6 7 8
+do
+	echo Number is $var
+done
+
+
+for name in 'Kumar Abhijeet' 'Abhinav' 'Manish' 'Priya'
+do
+	echo Name = $name
+done
+
+
+#! /bin/bash
+
+for f in ../../*
+do
+ echo $f
+done
+#!/bin/bash
+
+a=1
+
+for i in {1..10}
+
+ do
+
+a=$((a*i))
+
+done
+
+echo The result is $a
+#!/bin/bash
+
+for i in {1..10}
+do
+
+if [[ $((i%2)) == 0 ]]
+then
+	echo $i is even number.
+else
+	echo $i is odd number.
+fi
+
+	done
+#!/bin/bash
+
+Nos=$@
+
+SUM=0
+SUM2=0
+
+echo The passed numbers are $Nos
+
+for a in $Nos
+
+do
+
+	if [[ $((a%2)) == 0 ]]
+	then
+	SUM=$((SUM+a))
+	else
+	SUM2=$((SUM2+a))
+	fi
+
+done
+
+echo The sum of even number : $SUM
+echo The sum of odd number : $SUM2
+
+
+#!/bin/bash
+
+a=0
+
+echo The table of 2 is : 
+
+for i in {1..10}
+	do
+a=$(($a+2))
+
+echo  2*$i=$a
+
+done
+
+
+#!/bin/bash
+
+sum=0
+
+for i in {1..10}
+
+do
+
+sum=$((sum+i))
+
+done
+
+echo The sum is $sum
+#!/bin/bash
+
+CMDPATH=$1
+
+echo The passed path is $CMDPATH
+
+APTH=`ls $CMDPATH /*.log`
+# /home/kumar/scripts/1.log /home/kumar/scripts/2.log /home/kumar/scripts/FinalOutput.log
+echo the file list is $APTH
+
+for i in $APTH
+
+do
+
+cat $i >> $CMDPATH/FinalOutput.txt
+
+done
+
+#!/bin/bash
+
+NOS=$@
+
+n=0
+
+echo The passed numbers as $NOS
+
+for a in $NOS
+
+do
+
+
+
+	if [[ $((a%2)) == 0 ]]
+
+	then
+
+	n=$((n+1))
+
+	fi
+
+done
+
+echo There are $n even numbers
+
+
+
+
+
+
+#! /bin/bash
+
+for var in 1 2 3 4 5 5 6 7 8
+do
+	echo Number is $var
+done
+
+
+for name in 'Kumar Abhijeet' 'Abhinav' 'Manish' 'Priya'
+do
+	echo Name = $name
+done
+
+
+#! /bin/bash
+
+for f in ../../*
+do
+ echo $f
+done
+#!/bin/bash
+
+a=1
+
+for i in {1..10}
+
+ do
+
+a=$((a*i))
+
+done
+
+echo The result is $a
+#!/bin/bash
+
+for i in {1..10}
+do
+
+if [[ $((i%2)) == 0 ]]
+then
+	echo $i is even number.
+else
+	echo $i is odd number.
+fi
+
+	done
+#!/bin/bash
+
+Nos=$@
+
+SUM=0
+SUM2=0
+
+echo The passed numbers are $Nos
+
+for a in $Nos
+
+do
+
+	if [[ $((a%2)) == 0 ]]
+	then
+	SUM=$((SUM+a))
+	else
+	SUM2=$((SUM2+a))
+	fi
+
+done
+
+echo The sum of even number : $SUM
+echo The sum of odd number : $SUM2
+
+
+#!/bin/bash
+
+a=0
+
+echo The table of 2 is : 
+
+for i in {1..10}
+	do
+a=$(($a+2))
+
+echo  2*$i=$a
+
+done
+
+

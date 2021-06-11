@@ -1,0 +1,7 @@
+#!/bin/bash
+#This script outputs Hello World
+#Creation Date : 13-05-2021
+#Modofication Date : 13-05-2-21
+echo
+echo "Hello World"
+echo

@@ -1,0 +1,14 @@
+#!/bin/bash
+# Desciption : This script is to check if varibale value is met 
+# Date Created : 28-05-2021
+# Date Modified : 28-05-2021
+# Author : KA
+a=`date | awk '{print $1}'`
+echo $a
+
+#if [ $a == Friday ]
+#then
+#echo Today is $a
+#else
+#echo Today is not Friday
+#fi

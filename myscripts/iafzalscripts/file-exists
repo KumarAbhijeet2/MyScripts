@@ -1,0 +1,14 @@
+#!/bin/bash
+# Decscription : This script will check if a particular file (mentioned as value of 'a')  exists or not
+# Date Cretaed : 28-05-2021
+# Date Modified : 28-05-2021
+# Author : KA
+
+a=(test1.txt)
+if [ -e /home/kumar/$a ]
+then
+echo File exist
+else
+echo File does not exist
+fi
+

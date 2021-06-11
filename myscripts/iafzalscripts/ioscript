@@ -1,0 +1,16 @@
+#!/bin/bash
+# Description - This script is to show how Input Output commands works
+# Author - Kumar
+# Date created : 27-05-2021
+# Date modified : 27-05-2021
+
+a=`hostname` ##anything under ticks `` will be trated as command with echo and if not then it will ouput the same as written##
+echo My hostname is $a ##$-gives the value of the variable a, in this case value of Hostname##
+echo
+echo what is your name?
+echo
+read b ##read command waits on o/p screen for user input##
+echo
+echo Hello $b
+echo
+echo End of script
