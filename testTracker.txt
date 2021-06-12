@@ -6,8 +6,6 @@ Abhinav is changing this
 
 Testing git fetch
 
-<<<<<<< HEAD
 change conflict
-=======
-checking git pull
->>>>>>> 69d3e216999f316d52214ca2e1744589874552bd
+
+Merging complete
