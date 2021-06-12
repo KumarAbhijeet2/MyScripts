@@ -9,3 +9,7 @@ Testing git fetch
 change conflict
 
 Merging complete
+=======
+Abhinav modified this
+
+Moving the master one commit ahead.
